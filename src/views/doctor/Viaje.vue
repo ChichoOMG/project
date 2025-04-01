@@ -33,7 +33,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { supabase } from '@/config/supabase'
-import Mapview from '@/components/Mapview.vue' // Verifica que la ruta sea correcta
+import MapView from '@/components/MapView.vue' // Verifica que la ruta sea correcta
 import NavTopD from '@/components/comp_doctor/NavTopD.vue'
 import NavBottomD from '@/components/comp_doctor/NavBottomD.vue'
 import { Loader } from '@googlemaps/js-api-loader'
