@@ -17,11 +17,4 @@ app.use(pinia);
 app.use(ElementPlus);
 app.mount('#app');
 
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./project/service-worker.js')
-        .then((reg) => console.log('Service Worker registrado:', reg))
-        .catch((err) => console.log('Error en SW:', err));
-    });
-  }
   
