@@ -24,12 +24,12 @@
     event.waitUntil(
       caches.open('pwa-cache').then(cache => {
         return cache.addAll([
-          '/',                        // Página principal
-          '/index.html',              // HTML
-          '/icon-192x192.png',        // Ícono
-          '/styles/app.css',          // CSS
-          '/scripts/app.js',          // Aquí añades el JS compilado de Vue
-          '/scripts/vendor.js',       // Si tienes otros archivos JS, agrégales también
+          '',                        // Página principal
+          '/project/index.html',              // HTML
+          '/project/icon-192x192.png',        // Ícono
+          '/project/styles/app.css',          // CSS
+          '/project/scripts/app.js',          // Aquí añades el JS compilado de Vue
+          '/project/scripts/vendor.js',       // Si tienes otros archivos JS, agrégales también
           // Agrega más archivos estáticos si es necesario
         ]);
       })
