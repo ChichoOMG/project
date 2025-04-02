@@ -5,7 +5,7 @@
 
             <div class="flex flex-col">
                 <p class="font-nunito font-normal my-2">
-                    Bienvenido/a a la App de Alura; su gestor de servicios médicos a domicilio. HOLAAAAAAAAeeeee
+                    Bienvenido/a a la App de Alura; su gestor de servicios médicos a domicilio. HOLA
                 </p>
                 <button class="bg-medblue text-white mb-2 my-1 w-full py-3 inline-flex justify-center items-center rounded-full" onclick="window.location.href='/iniciar-sesion'">Iniciar sesión</button>
                 <button class="bg-medbluelight my-1 w-full py-3 inline-flex justify-center items-center rounded-full" onclick="window.location.href='/registro'">Registrarse</button>
